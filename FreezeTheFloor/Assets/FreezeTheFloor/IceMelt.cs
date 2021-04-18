@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class IceMelt : MonoBehaviour
 {
-    public float meltTime = 1;
+    public float meltTime = 10;
 
     private void Update()
     {

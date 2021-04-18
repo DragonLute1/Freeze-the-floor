@@ -230,7 +230,7 @@ namespace Unity.FPS.Gameplay
             //takes the location of the hit and instantiates some ice there;
             if(collider.gameObject.CompareTag("Freezeable"))
             {
-                Instantiate(IceBlock, point, new Quaternion(0, 0, 0, 0));
+                Instantiate(IceBlock, point, new Quaternion(normal.x, normal.y, normal.z, 0));
             }
 
             // Self Destruct

@@ -117,6 +117,8 @@ MonoBehaviour:
   Damage: 40
   AreaOfDamage: {fileID: 1203337828444365110}
   RadiusColor: {r: 0, g: 1, b: 1, a: 0.49803922}
+  IceBlock: {fileID: 3707341346493334404, guid: 02bd90cae0a28df4da6081a0af1ac844,
+    type: 3}
 --- !u!114 &1203337828444365110
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -154,7 +156,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  AreaOfEffectColor: {r: 0.23584908, g: 0.09233714, b: 0.09233714, a: 0.5}
+  AreaOfEffectColor: {r: 0, g: 1, b: 0.8467734, a: 0.5}
 --- !u!114 &2223418409092269418
 MonoBehaviour:
   m_ObjectHideFlags: 0
